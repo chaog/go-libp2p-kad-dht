@@ -5,12 +5,13 @@ import (
 	"fmt"
 	"strings"
 
-	cid "github.com/ipfs/go-cid"
-	logging "github.com/ipfs/go-log"
-	pb "github.com/libp2p/go-libp2p-kad-dht/pb"
-	kb "github.com/libp2p/go-libp2p-kbucket"
-	peer "github.com/libp2p/go-libp2p-peer"
-	notif "github.com/libp2p/go-libp2p-routing/notifications"
+	cid "gx/ipfs/QmPSQnBKM9g7BaUcZCvswUJVscQ1ipjmwxN5PXCjkp9EQ7/go-cid"
+	peer "gx/ipfs/QmQsErDt8Qgw1XrsXf2BpEzDgGWtB1YLsTAARBup5b6B9W/go-libp2p-peer"
+	logging "gx/ipfs/QmRREK2CAZ5Re2Bd9zZFG6FeYDppUWt5cMgsoUEp3ktgSr/go-log"
+	kb "gx/ipfs/QmWXTuqkFh63jvYxAn1h3MZe6JkHAdvhm5fvQpBzkMQMfE/go-libp2p-kbucket"
+	notif "gx/ipfs/QmdKS5YtmuSWKuLLgbHG176mS3VX3AKiyVmaaiAfvgcuch/go-libp2p-routing/notifications"
+
+	pb "github.com/ipfs/go-libp2p-kad-dht/pb"
 )
 
 func tryFormatLoggableKey(k string) (string, error) {

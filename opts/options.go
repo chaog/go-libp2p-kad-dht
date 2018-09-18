@@ -3,14 +3,14 @@ package dhtopts
 import (
 	"fmt"
 
-	ds "github.com/ipfs/go-datastore"
-	dssync "github.com/ipfs/go-datastore/sync"
-	"github.com/libp2p/go-libp2p-protocol"
-	record "github.com/libp2p/go-libp2p-record"
+	ds "gx/ipfs/QmSpg1CvpXQQow5ernt1gNBXaXV6yxyNqi7XoeerWfzB5w/go-datastore"
+	dssync "gx/ipfs/QmSpg1CvpXQQow5ernt1gNBXaXV6yxyNqi7XoeerWfzB5w/go-datastore/sync"
+	"gx/ipfs/QmZNkThpqfVXs9GNbexPrfBbXSLNYeKrE7jwFM2oqHbyqN/go-libp2p-protocol"
+	record "gx/ipfs/QmdHb9aBELnQKTVhvvA3hsQbRgUAwsWUzBP2vZ6Y5FBYvE/go-libp2p-record"
 )
 
-var ProtocolDHT protocol.ID = "/ipfs/kad/1.0.0"
-var ProtocolDHTOld protocol.ID = "/ipfs/dht"
+var ProtocolDHT protocol.ID = "/kpfs/kad/1.0.0"
+var ProtocolDHTOld protocol.ID = "/kpfs/dht"
 var DefaultProtocols = []protocol.ID{ProtocolDHT, ProtocolDHTOld}
 
 // Options is a structure containing all the options that can be used when constructing a DHT.

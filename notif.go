@@ -1,9 +1,9 @@
 package dht
 
 import (
-	inet "github.com/libp2p/go-libp2p-net"
-	ma "github.com/multiformats/go-multiaddr"
-	mstream "github.com/multiformats/go-multistream"
+	ma "gx/ipfs/QmYmsdtJ3HsodkePE3eU3TsCaP2YvPZJ4LoXnNkDE5Tpt7/go-multiaddr"
+	inet "gx/ipfs/QmZNJyx9GGCX4GeuHnLB8fxaxMLs4MjTjHokxfQcCd6Nve/go-libp2p-net"
+	mstream "gx/ipfs/QmabLh8TrJ3emfAoQk5AbqbLTbMyj7XqumMFmAFxa9epo8/go-multistream"
 )
 
 // netNotifiee defines methods to be used with the IpfsDHT

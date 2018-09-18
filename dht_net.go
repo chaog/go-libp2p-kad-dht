@@ -8,11 +8,12 @@ import (
 	"sync"
 	"time"
 
-	ggio "github.com/gogo/protobuf/io"
-	ctxio "github.com/jbenet/go-context/io"
-	pb "github.com/libp2p/go-libp2p-kad-dht/pb"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
+	peer "gx/ipfs/QmQsErDt8Qgw1XrsXf2BpEzDgGWtB1YLsTAARBup5b6B9W/go-libp2p-peer"
+	ctxio "gx/ipfs/QmTKsRYeY4simJyf37K93juSq75Lo8MVCDJ7owjmf46u8W/go-context/io"
+	inet "gx/ipfs/QmZNJyx9GGCX4GeuHnLB8fxaxMLs4MjTjHokxfQcCd6Nve/go-libp2p-net"
+	ggio "gx/ipfs/QmdxUuburamoF6zF9qjeQC4WYcWGbWuRmdLacMEsW8ioD8/gogo-protobuf/io"
+
+	pb "github.com/ipfs/go-libp2p-kad-dht/pb"
 )
 
 var dhtReadMessageTimeout = time.Minute
